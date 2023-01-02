@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">k2048</string>
+
+    <string-array name="sortScoreValues">
+        <item>Bigger than</item>
+        <item>Equals to</item>
+        <item>Smaller than</item>
+    </string-array>
+</resources>
