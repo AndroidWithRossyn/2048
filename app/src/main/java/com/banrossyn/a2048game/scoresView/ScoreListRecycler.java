@@ -31,7 +31,7 @@ public class ScoreListRecycler extends Activity implements AdapterView.OnItemSel
     private final int SORT_BY_SCORE =  1;
     private final int SORT_BY_DURATION =  2;
     private final int SORT_BY_DATETIME =  3;
-    private final String TWEET_INTENT = "https://twitter.com/intent/tweet?text=In Rionacko's 2048 game, I have achieved the score of ";
+    private final String TWEET_INTENT = "https://twitter.com/intent/tweet?text=In Rossyn's 2048 game, I have achieved the score of ";
 
     private ArrayList<ScoreDisplay> listScores;
     private RecyclerView recyclerViewScores;
@@ -89,7 +89,7 @@ public class ScoreListRecycler extends Activity implements AdapterView.OnItemSel
 
         //SCORE Filtering: Smaller than, equals to, bigger than
         Spinner scoreSpinner = findViewById(R.id.scoreSpinner);
-        ArrayAdapter<CharSequence> scoreAdapter = ArrayAdapter.createFromResource(this, R.array.sortScoreValues, R.layout.support_simple_spinner_dropdown_item);
+        ArrayAdapter<CharSequence> scoreAdapter = ArrayAdapter.createFromResource(this, R.array.sortScoreValues, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item);
         scoreAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         scoreSpinner.setAdapter(scoreAdapter);
         scoreSpinner.setOnItemSelectedListener(this);

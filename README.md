@@ -1,6 +1,6 @@
 
 <p align="center">
-  <h1 align="center">2048 Free Source Code For Android</h1>
+  <h1 align="center">2048 Game Android</h1>
   <h4 align="center">
   
  Marge Tiles Brain Puzzle 2048 Game. Very simple game yet insanely addictive!
