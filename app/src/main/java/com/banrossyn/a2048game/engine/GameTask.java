@@ -88,7 +88,7 @@ public class GameTask extends SurfaceView implements SurfaceHolder.Callback, Swi
         undoMovementX = scWidth / 2 + 2 * standardSize - buttonWidth;
         undoMovementY = scHeight / 2 - 2 * standardSize - 6 * buttonHeight / 2;
 
-        int copyrightWidth = 1000;
+        int copyrightWidth = scWidth;
         int copyrightHeight = 200;
         Bitmap copyright = BitmapFactory.decodeResource(getResources(), R.drawable.copyright);
         bmpCopyright = Bitmap.createScaledBitmap(copyright, copyrightWidth, copyrightHeight, false);
