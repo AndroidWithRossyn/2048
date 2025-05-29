@@ -9,7 +9,7 @@
 # 
 
 <p align="center">
-    <a href="https://play.google.com/store/apps/details?id=com.banrossyn.merge.game2048">
+    <a href="">
       <img src="https://user-images.githubusercontent.com/97843190/183989038-921cd5b5-ebab-4401-9748-05c02b25a655.png"  />
     </a>
   </p>
